@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37BB1864146ADAED001E634F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37BB1863146ADAED001E634F /* UIKit.framework */; };
+		37BB1866146ADAED001E634F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37BB1865146ADAED001E634F /* Foundation.framework */; };
+		37BB1868146ADAEE001E634F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37BB1867146ADAED001E634F /* CoreGraphics.framework */; };
+		37BB186E146ADAEE001E634F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37BB186C146ADAEE001E634F /* InfoPlist.strings */; };
+		37BB1871146ADAEE001E634F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BB1870146ADAEE001E634F /* main.m */; };
+		37BB1874146ADAEE001E634F /* MVC_CocktailsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BB1873146ADAEE001E634F /* MVC_CocktailsAppDelegate.m */; };
+		37BB1877146ADAEE001E634F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37BB1875146ADAEE001E634F /* MainWindow.xib */; };
+		37BB187F146ADB88001E634F /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BB187E146ADB88001E634F /* TableViewController.m */; };
+		37BB1882146ADC77001E634F /* Recipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BB1881146ADC77001E634F /* Recipe.m */; };
+		37BB1887146ADE45001E634F /* mojito.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37BB1884146ADE45001E634F /* mojito.jpg */; };
+		37BB1888146ADE45001E634F /* pina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37BB1885146ADE45001E634F /* pina.jpg */; };
+		37BB1889146ADE45001E634F /* sex_on_the_beach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37BB1886146ADE45001E634F /* sex_on_the_beach.jpg */; };
+		37BB188D146ADFCC001E634F /* DisplayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BB188B146ADFCB001E634F /* DisplayController.m */; };
+		37BB188E146ADFCC001E634F /* DisplayController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37BB188C146ADFCB001E634F /* DisplayController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37BB185F146ADAED001E634F /* MVC_Cocktails.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVC_Cocktails.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37BB1863146ADAED001E634F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		37BB1865146ADAED001E634F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		37BB1867146ADAED001E634F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		37BB186B146ADAEE001E634F /* MVC_Cocktails-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MVC_Cocktails-Info.plist"; sourceTree = "<group>"; };
+		37BB186D146ADAEE001E634F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37BB186F146ADAEE001E634F /* MVC_Cocktails-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MVC_Cocktails-Prefix.pch"; sourceTree = "<group>"; };
+		37BB1870146ADAEE001E634F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37BB1872146ADAEE001E634F /* MVC_CocktailsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVC_CocktailsAppDelegate.h; sourceTree = "<group>"; };
+		37BB1873146ADAEE001E634F /* MVC_CocktailsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVC_CocktailsAppDelegate.m; sourceTree = "<group>"; };
+		37BB1876146ADAEE001E634F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		37BB187D146ADB88001E634F /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		37BB187E146ADB88001E634F /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		37BB1880146ADC77001E634F /* Recipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe.h; sourceTree = "<group>"; };
+		37BB1881146ADC77001E634F /* Recipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recipe.m; sourceTree = "<group>"; };
+		37BB1884146ADE45001E634F /* mojito.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mojito.jpg; sourceTree = "<group>"; };
+		37BB1885146ADE45001E634F /* pina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pina.jpg; sourceTree = "<group>"; };
+		37BB1886146ADE45001E634F /* sex_on_the_beach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sex_on_the_beach.jpg; sourceTree = "<group>"; };
+		37BB188A146ADFCA001E634F /* DisplayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayController.h; sourceTree = "<group>"; };
+		37BB188B146ADFCB001E634F /* DisplayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayController.m; sourceTree = "<group>"; };
+		37BB188C146ADFCB001E634F /* DisplayController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DisplayController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37BB185C146ADAED001E634F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37BB1864146ADAED001E634F /* UIKit.framework in Frameworks */,
+				37BB1866146ADAED001E634F /* Foundation.framework in Frameworks */,
+				37BB1868146ADAEE001E634F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37BB1854146ADAED001E634F = {
+			isa = PBXGroup;
+			children = (
+				37BB1869146ADAEE001E634F /* MVC_Cocktails */,
+				37BB1862146ADAED001E634F /* Frameworks */,
+				37BB1860146ADAED001E634F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37BB1860146ADAED001E634F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37BB185F146ADAED001E634F /* MVC_Cocktails.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37BB1862146ADAED001E634F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37BB1863146ADAED001E634F /* UIKit.framework */,
+				37BB1865146ADAED001E634F /* Foundation.framework */,
+				37BB1867146ADAED001E634F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37BB1869146ADAEE001E634F /* MVC_Cocktails */ = {
+			isa = PBXGroup;
+			children = (
+				37BB1872146ADAEE001E634F /* MVC_CocktailsAppDelegate.h */,
+				37BB1873146ADAEE001E634F /* MVC_CocktailsAppDelegate.m */,
+				37BB187D146ADB88001E634F /* TableViewController.h */,
+				37BB187E146ADB88001E634F /* TableViewController.m */,
+				37BB1880146ADC77001E634F /* Recipe.h */,
+				37BB1881146ADC77001E634F /* Recipe.m */,
+				37BB188A146ADFCA001E634F /* DisplayController.h */,
+				37BB188B146ADFCB001E634F /* DisplayController.m */,
+				37BB188C146ADFCB001E634F /* DisplayController.xib */,
+				37BB1875146ADAEE001E634F /* MainWindow.xib */,
+				37BB186A146ADAEE001E634F /* Supporting Files */,
+			);
+			path = MVC_Cocktails;
+			sourceTree = "<group>";
+		};
+		37BB186A146ADAEE001E634F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37BB1883146ADE45001E634F /* MVC Images */,
+				37BB186B146ADAEE001E634F /* MVC_Cocktails-Info.plist */,
+				37BB186C146ADAEE001E634F /* InfoPlist.strings */,
+				37BB186F146ADAEE001E634F /* MVC_Cocktails-Prefix.pch */,
+				37BB1870146ADAEE001E634F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37BB1883146ADE45001E634F /* MVC Images */ = {
+			isa = PBXGroup;
+			children = (
+				37BB1884146ADE45001E634F /* mojito.jpg */,
+				37BB1885146ADE45001E634F /* pina.jpg */,
+				37BB1886146ADE45001E634F /* sex_on_the_beach.jpg */,
+			);
+			path = "MVC Images";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37BB185E146ADAED001E634F /* MVC_Cocktails */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37BB187A146ADAEE001E634F /* Build configuration list for PBXNativeTarget "MVC_Cocktails" */;
+			buildPhases = (
+				37BB185B146ADAED001E634F /* Sources */,
+				37BB185C146ADAED001E634F /* Frameworks */,
+				37BB185D146ADAED001E634F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MVC_Cocktails;
+			productName = MVC_Cocktails;
+			productReference = 37BB185F146ADAED001E634F /* MVC_Cocktails.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37BB1856146ADAED001E634F /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 37BB1859146ADAED001E634F /* Build configuration list for PBXProject "MVC_Cocktails" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 37BB1854146ADAED001E634F;
+			productRefGroup = 37BB1860146ADAED001E634F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37BB185E146ADAED001E634F /* MVC_Cocktails */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37BB185D146ADAED001E634F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37BB186E146ADAEE001E634F /* InfoPlist.strings in Resources */,
+				37BB1877146ADAEE001E634F /* MainWindow.xib in Resources */,
+				37BB1887146ADE45001E634F /* mojito.jpg in Resources */,
+				37BB1888146ADE45001E634F /* pina.jpg in Resources */,
+				37BB1889146ADE45001E634F /* sex_on_the_beach.jpg in Resources */,
+				37BB188E146ADFCC001E634F /* DisplayController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37BB185B146ADAED001E634F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37BB1871146ADAEE001E634F /* main.m in Sources */,
+				37BB1874146ADAEE001E634F /* MVC_CocktailsAppDelegate.m in Sources */,
+				37BB187F146ADB88001E634F /* TableViewController.m in Sources */,
+				37BB1882146ADC77001E634F /* Recipe.m in Sources */,
+				37BB188D146ADFCC001E634F /* DisplayController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		37BB186C146ADAEE001E634F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37BB186D146ADAEE001E634F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		37BB1875146ADAEE001E634F /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37BB1876146ADAEE001E634F /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37BB1878146ADAEE001E634F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		37BB1879146ADAEE001E634F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		37BB187B146ADAEE001E634F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MVC_Cocktails/MVC_Cocktails-Prefix.pch";
+				INFOPLIST_FILE = "MVC_Cocktails/MVC_Cocktails-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		37BB187C146ADAEE001E634F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MVC_Cocktails/MVC_Cocktails-Prefix.pch";
+				INFOPLIST_FILE = "MVC_Cocktails/MVC_Cocktails-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37BB1859146ADAED001E634F /* Build configuration list for PBXProject "MVC_Cocktails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37BB1878146ADAEE001E634F /* Debug */,
+				37BB1879146ADAEE001E634F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37BB187A146ADAEE001E634F /* Build configuration list for PBXNativeTarget "MVC_Cocktails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37BB187B146ADAEE001E634F /* Debug */,
+				37BB187C146ADAEE001E634F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37BB1856146ADAED001E634F /* Project object */;
+}
